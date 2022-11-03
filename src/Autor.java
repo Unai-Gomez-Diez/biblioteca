@@ -1,4 +1,4 @@
-public class autor {
+public class Autor {
     private String nombre;
     private String apellidos;
     private String fecha_nacimiento;
