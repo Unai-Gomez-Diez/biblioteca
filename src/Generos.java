@@ -1,14 +1,14 @@
 public class Generos {
 
-    private String id;
+    private Integer id;
     private String nombre;
     private String descripcion;
 
-    public String getId(){
+    public Integer getId(){
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
     public String getNombre(){
