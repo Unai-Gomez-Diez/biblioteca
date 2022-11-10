@@ -3,6 +3,9 @@ public class Autor {
     private String apellidos;
     private String fecha_nacimiento;
     private String localidad_nacimiento;
+
+
+
     public String getNombre(){
         return nombre;
     }
