@@ -28,6 +28,8 @@ public class Prestamo {
             this.usuarios = usuarios;
         }
 
+    Scanner fechastart = new Scanner(System.in);
+    String dateStart = fechastart.next();
         public String getDateStart (){
             return dateStart;
         }
@@ -35,8 +37,7 @@ public class Prestamo {
         public void setDateStart(String dateStart){
         this.dateStart = dateStart;
         }
-        Scanner fechastart = new Scanner(System.in);
-        String dateStart = fechastart.next();
+
 
     public String getDateEnd (){
         return dateEnd;
