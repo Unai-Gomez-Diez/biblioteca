@@ -1,7 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-
 public class Prestamo {
 
         private String id;
@@ -17,8 +13,8 @@ public class Prestamo {
         public Libro getLibro () {
             return libro;
         }
-        public void setLibro  (Libro  libro) {
-            this.libro = libro;
+        public void setLibro  (Libro libro) {
+            this.libro = this.libro;
         }
 
         public Usuario getUsuarios () {
@@ -28,26 +24,22 @@ public class Prestamo {
             this.usuarios = usuarios;
         }
 
-    Scanner fechastart = new Scanner(System.in);
-    String dateStart = fechastart.next();
-        public String getDateStart (){
-            return dateStart;
-        }
+    public String getDateStart(){
+        return dateStart;
+    }
 
-        public void setDateStart(String dateStart){
+    public void setDateStart(String dateStart) {
         this.dateStart = dateStart;
-        }
+    }
 
-
-    public String getDateEnd (){
+    public String getDateEnd(){
         return dateEnd;
     }
 
-    public void setDateEnd(String dateEnd){
+    public void setDateEnd(String dateEnd) {
         this.dateEnd = dateEnd;
     }
-    Scanner fechaend = new Scanner(System.in);
-    String dateend = fechaend.next();
+
 
     }
 
