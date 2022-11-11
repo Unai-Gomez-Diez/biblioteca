@@ -7,28 +7,46 @@ public class Prestamo {
         private String id;
         private Usuario usuarios;
         private Libro libro;
+        private String dateStart;
+        private String dateEnd;
 
         public void setId (String id){
             this.id = id;
         }
-        public void setLibroList (List < Libro > libroList) {
-            this.libro = libro;
-        }
+
         public Libro getLibro () {
             return libro;
         }
-        public void setUsuariosList (List < Usuario > usuariosList) {
-            this.usuarios = usuarios;
+        public void setLibro  (Libro  libro) {
+            this.libro = libro;
         }
+
         public Usuario getUsuarios () {
             return usuarios;
         }
+        public void setUsuarios (Usuario usuarios) {
+            this.usuarios = usuarios;
+        }
 
-        Scanner fecha = new Scanner(System.in);
+        public String getDateStart (){
+            return dateStart;
+        }
 
-        String date = fecha.next();
+        public void setDateStart(String dateStart){
+        this.dateStart = dateStart;
+        }
+        Scanner fechastart = new Scanner(System.in);
+        String dateStart = fechastart.next();
 
+    public String getDateEnd (){
+        return dateEnd;
+    }
 
+    public void setDateEnd(String dateEnd){
+        this.dateEnd = dateEnd;
+    }
+    Scanner fechaend = new Scanner(System.in);
+    String dateend = fechaend.next();
 
     }
 
